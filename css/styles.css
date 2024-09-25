@@ -1,0 +1,74 @@
+/* Perus tyyli sivustolle */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#wordDisplay {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+  font-family: monospace;
+}
+
+#guessForm {
+  margin-bottom: 20px;
+}
+
+#guessInput {
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 250px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Placeholder-tekstin tyylit */
+#guessInput::placeholder {
+  font-size: 1.5rem;
+  color: #999;
+}
+
+/* Viestin näkyvyys */
+#message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+#newGameButton {
+  position: fixed;
+  top: 20px; /* 20px sivun yläreunasta */
+  left: 50%; /* Keskittää vaakasuunnassa */
+  transform: translateX(-50%); /* Korjaa keskipisteen siirron */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#newGameButton:hover {
+  background-color: #45a049;
+}
+
